@@ -229,7 +229,7 @@ body {
     background-color:white;
 }
 
-.footer{
+.main-footer{
     width: 100%;
     max-height: 160px;
     display: flex; 
