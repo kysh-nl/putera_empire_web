@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@swup/scripts-plugin": "^2.1.0",
+    "swup": "^4.6.0"
+  }
+}

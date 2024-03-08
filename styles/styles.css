@@ -270,9 +270,8 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 0;
 }
 
 /* Next & previous buttons */
@@ -303,7 +302,7 @@ img {vertical-align: middle;}
 }
 
 /* Caption text */
-.text {
+.myslide-text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -339,14 +338,31 @@ img {vertical-align: middle;}
 }
 
 /* Fading animation */
-.slide {
-  animation-name: slide;
-  animation-duration: 5s;
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-@keyframes slide {
-  from {left:0px} 
-  to {right: 1000px}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.transition-fade {
+    opacity: 1;
+    transition: 500ms;
+    transform: translateX(0);
+    transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+    opacity: 1;
+    transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+    transform: translateX(0%);
 }
 
 
