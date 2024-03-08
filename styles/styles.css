@@ -247,13 +247,12 @@ body {
 }
 
 .footer-up{
-    height: auto;
-    display: flex; 
-    align-items: center;
+    display: flex;
     justify-content: space-between;
-    background-color:#2A2C2E;
-    padding-left: 24px;
-    padding-right: 24px;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    margin: .5rem;
 }
 
 .footer-bottom{
