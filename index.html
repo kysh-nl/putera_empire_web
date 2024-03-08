@@ -34,8 +34,42 @@
 </head>
 <body>
   <header class="main-header">
-    <div class="brand-title-top"><img src="/assets/Logo/PE_Logo_Gold.png" alt="" height="100%" width="10%"></div>       
-    <div class="cover-media"><img src="/assets/Banner/Banner_Crop.png" alt="" height="auto" width="100%"></div>
+    <div class="brand-title-top"><img src="/assets/Logo/PE_Logo_Gold.png" alt="" height="100%" width="10%"></div>
+
+    <!--<div class="cover-media"><img src="/assets/Banner/Banner_Crop.png" alt="" height="auto" width="100%"></div> use later-->
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="/assets/Banner/Banner_Crop.png" alt="" height="auto" width="100%">
+        <!--<div class="text">Caption Text</div>
+      </div>-->
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="/assets/Banner/Banner_Crop.png" alt="" height="auto" width="100%">
+        <!--<div class="text">Caption Text</div>
+      </div>-->
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="/assets/Banner/Banner_Crop.png" alt="" height="auto" width="100%">
+        <!--<div class="text">Caption Text</div>
+      </div>-->
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
   </header>
 
     <nav class="navbar">
@@ -68,7 +102,7 @@
       <div class="arrangement">
           <div class="card-row">
             <div class="card">
-              <div class="book-cover"><a href="muscle-book.html" style="display: flex;"><video autoplay muted loop width="246px" height="357px"> <source src="/assets/Video/Baju Hitam.mp4"></a></div>
+              <div class="book-cover"><a href="muscle-book.html" style="display: flex;"><video autoplay muted loop width="246px" height="357px"><source src="/assets/Video/Baju Hitam.mp4"></a></div>
             <!--use later when need  <div class="book-info">
                   <div class="book-title-author">
                       <div class="author" style="font-size: 14px; color: #000; opacity: 60%;">Alan Trotter</div>
