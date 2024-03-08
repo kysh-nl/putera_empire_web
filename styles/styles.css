@@ -130,9 +130,8 @@ body {
 }
 
 .arrangement {
-    max-width: 898px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -140,18 +139,16 @@ body {
 }
 
 .card-row {
-    max-width: 294px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     gap: 8px;
 }
 
 .card {    
-    background-color:white;
-    max-width: 294px; 
+    background-color:white; 
     height: 577px;
     border-radius: 20px;
     display: flex; 
@@ -252,7 +249,6 @@ body {
     align-items: center;
     background-color: #333;
     color: white;
-    margin: .5rem;
 }
 
 .footer-bottom{
