@@ -160,12 +160,69 @@ body {
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    gap: 26px;
+}
+
+.banner-card {    
+    background-color:white; 
+    /* width: 465px;
+    height: 827px; */
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+
+.banner-card-activities {    
+    background-color:white; 
+    /* width: 1440px; */
+    /* height: 827px; */
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    justify-content: center;
+    align-content: center;
+}
+
+.reel-card {    
+    background-color:white; 
+    /* width: 465px;
+    height: 825px; */
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
     gap: 8px;
+    justify-content: center;
+    align-content: center;
+}
+
+.video-mask{
+    width: 425px;
+    height: 800px;
+    border-radius: 20px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+}
+
+.image-mask{
+    width: 800px;
+    height: 800px;
+    border-radius: 20px; 
+    overflow: hidden;
 }
 
 .card {    
-    /* background-color:white;  */
-    /* height: 577px; */
+    background-color:white; 
     border-radius: 20px;
     display: flex; 
     flex-direction: column;
